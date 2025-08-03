@@ -4,7 +4,7 @@ A personal portfolio website built with **React** and **Tailwind CSS**, showcasi
 
 ## 🚀 Live Demo
 
-🌐 [View Portfolio](https://ajmal92786-portfolio.vercel.app/)
+🌐 [View Portfolio](https://abdul-kalam-portfolio.vercel.app/)
 
 ## 📌 About Me
 
