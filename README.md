@@ -1,4 +1,4 @@
-# 💼 Mohd Ajmal Raza – Developer Portfolio
+# 💼 Abdul Kalam - Developer Portfolio
 
 A personal portfolio website built with **React** and **Tailwind CSS**, showcasing my skills, projects, and contact information.
 
@@ -8,7 +8,7 @@ A personal portfolio website built with **React** and **Tailwind CSS**, showcasi
 
 ## 📌 About Me
 
-Hi, I'm **Mohd Ajmal Raza** – a backend developer specializing in **Node.js**, **Express**, **PostgreSQL**, and **Supabase**.  
+Hi, I'm **Abdul Kalam** – a backend developer specializing in **Node.js**, **Express**, **PostgreSQL**, and **Supabase**.  
 I enjoy building scalable APIs, integrating external services, and writing clean, testable code.
 
 This portfolio is a reflection of my journey, tech stack, and projects I’ve built along the way.
@@ -45,9 +45,9 @@ portfolio/
 
 ## 🔗 Important Links
 
-- 💻 [GitHub Profile](https://github.com/ajmal92786)
-- 📧 [Email Me](mailto:ajmalbly27@gmail.com)
-- 🔗 [LinkedIn](https://linkedin.com/in/mohd-ajmal-raza)
+- 💻 [GitHub Profile](https://github.com/Abdul-Kalam0/)
+- 📧 [Email Me](mailto:abdulkalamblycomp@gmail.com)
+- 🔗 [LinkedIn](https://linkedin.com/in/Abdul-Kalam0/)
 
 ---
 
