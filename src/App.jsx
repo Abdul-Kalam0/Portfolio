@@ -95,13 +95,13 @@ function App() {
 
             {/* Right side - Image */}
             <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-              <div className="relative w-[280px] h-[350px]">
+              <div className="relative w-[320px] h-[500px]">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-teal-500/20 blur-2xl"></div>
                 <div className="relative h-full w-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg overflow-hidden shadow-xl border border-gray-700/50">
                   <img
                     src="./profile-pic.jpeg"
                     alt="Portfolio"
-                    className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-all duration-300"
+                    className="w-full h-full object-cover opacity-100 hover:opacity-100 transition-all duration-300"
                   />
                 </div>
                 <div className="absolute -bottom-4 -right-4 w-2/3 h-2/3 border-2 border-teal-500/20 rounded-lg -z-10"></div>

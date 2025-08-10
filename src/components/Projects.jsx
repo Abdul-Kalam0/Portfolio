@@ -2,48 +2,41 @@ import { useState } from "react";
 
 const projects = [
   {
-    title: "SnapVault: Photo Curation App",
+    title: "Real-Time-Chat-Application",
     description:
-      "A photo management API to search Unsplash images, add tags, save to collections, and track user history. Built using Node.js, Express, PostgreSQL (Supabase), and Sequelize.",
-    link: "https://github.com/ajmal92786/snapvault",
+      "A simple and scalable backend for a real-time chat application. Built with Node.js, Express, and Socket.IO for live messaging, and MongoDB for user and message persistence.",
+    link: "https://github.com/Abdul-Kalam0/Real-Time-Chat-Application",
     // image: "/snapvault.png",
-    demo: "https://snap-vault-backend-ajmal-razas-projects.vercel.app",
-    tech: [
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "Supabase",
-      "Sequelize",
-      "Unsplash API",
-    ],
+    // demo: "https://snap-vault-backend-ajmal-razas-projects.vercel.app",
+    tech: ["Node.js", "Express", "MongoDB", "Socket.io", "Bcrypt", "JWT"],
   },
   {
-    title: "MovieCrate: Movie Curation App",
+    title: "Spotify-backend",
     description:
-      "Backend API integrating TMDB for movie data. Allows favorites, searching, and saving. Built using Node.js, Express, PostgreSQL, and Sequelize.",
-    link: "https://github.com/ajmal92786/MovieCrate-Backend",
+      "Developed a Node.js & Express.js backend that integrates with the Spotify Web API to enable core music streaming functionalities. Implemented OAuth 2.0 authentication for secure user login via Spotify accounts and handled token refresh workflows. Designed RESTful API endpoints.",
+    link: "https://github.com/Abdul-Kalam0/Spotify",
     // image: "/moviecrate.png",
     // demo: "https://snapvault-demo.vercel.app",
-    tech: ["Node.js", "Express", "PostgreSQL", "Sequelize", "TMDB API"],
-  },
-  {
-    title: "TheDocStore: Document Management System",
-    description:
-      "Document management system with folder restrictions, file metadata, and Cloudinary uploads. Built using Node.js, Sequelize, Supabase, and Multer.",
-    link: "https://github.com/ajmal92786/The-Doc-Store",
-    // image: "/docstore.png", ]
-    // demo: "https://snapvault-demo.vercel.app",
-    tech: ["Node.js", "Express", "PostgreSQL", "Supabase", "Sequelize"],
+    tech: ["Node.js", "Express", "MongoDB", "Mongoose", "JWT", "Bcrypt"],
   },
   {
     title: "OAuth Login App",
     description:
       "Secure authentication system with frontend & backend using token-based OAuth and protected routes.",
-    link: "https://github.com/ajmal92786/oauth-server",
+    link: "https://github.com/Abdul-Kalam0/OAuth-Backend",
     // image: "/oauth.png",
-    demo: "https://oauth-server-eac27.vercel.app/",
+    //demo: "https://oauth-server-eac27.vercel.app/",
     tech: ["Node.js", "Express", "PostgreSQL", "Supabase", "Sequelize"],
   },
+  // {
+  //   title: "TheDocStore: Document Management System",
+  //   description:
+  //     "Document management system with folder restrictions, file metadata, and Cloudinary uploads. Built using Node.js, Sequelize, Supabase, and Multer.",
+  //   link: "https://github.com/ajmal92786/The-Doc-Store",
+  //   // image: "/docstore.png", ]
+  //   // demo: "https://snapvault-demo.vercel.app",
+  //   tech: ["Node.js", "Express", "PostgreSQL", "Supabase", "Sequelize"],
+  // },
 ];
 
 export default function Projects() {
