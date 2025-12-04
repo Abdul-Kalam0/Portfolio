@@ -2,41 +2,113 @@ import { useState } from "react";
 
 const projects = [
   {
+    title: "Anvaya CRM System",
+    description:
+      "Anvaya CRM is a full-stack lead management system designed to track sales pipelines, assign leads to agents, update progress, and analyze performance. It features a responsive UI, real-time filtering, CRUD operations, status tracking, reporting charts, and a dashboard summarizing lead insights — making sales management faster, organized, and efficient.",
+    link: "https://github.com/Abdul-Kalam0/Anvaya-CRM-Frontend",
+    tech: [
+      "React.js",
+      "React Router",
+      "Bootstrap",
+      "JavaScript (ES6+)",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "REST API",
+      "Chart.js",
+      "Postman (API Testing)",
+      "Git & GitHub",
+    ],
+    live: "https://anvaya-crm-001.vercel.app/",
+  },
+  {
+    title: "AI ChatBot",
+    description:
+      "AI ChatBot powered by Google Gemini API is an intelligent conversational assistant capable of generating human-like responses, answering queries, and understanding natural language context. It integrates Google’s Gemini LLM to provide real-time smart replies, content generation, and user-friendly interactions with a clean, responsive UI.",
+    tech: [
+      "React.js",
+      "JavaScript (ES6+)",
+      "Bootstrap",
+      "Node.js",
+      "Express.js",
+      "Google Gemini API",
+      "REST API",
+      "Axios / Fetch",
+      "dotenv",
+      "Git & GitHub",
+      "Postman (API Testing)",
+    ],
+    link: "https://github.com/Abdul-Kalam0/AI-ChatBot",
+    live: "https://ai-chatbot001.vercel.app/",
+  },
+  {
+    title: "MyShopieApp",
+    description:
+      "MyShopie is a full-featured e-commerce web app with secure JWT authentication, product browsing, advanced filtering, cart and wishlist management, and a complete checkout workflow. Users can manage addresses, place orders, track order history, and enjoy a seamless shopping experience with dynamic updates and protected user routes.",
+    tech: [
+      "React.js",
+      "React Router",
+      "Redux Toolkit / Context API (State Management)",
+      "JavaScript (ES6+)",
+      "Bootstrap",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "REST API",
+      "Postman",
+      "Git & GitHub",
+    ],
+    link: "https://github.com/Abdul-Kalam0/MyShopieApp",
+    live: "https://my-shopie-app-001.vercel.app/",
+  },
+
+  {
     title: "Real-Time-Chat-Application",
     description:
-      "A simple and scalable backend for a real-time chat application. Built with Node.js, Express, and Socket.IO for live messaging, and MongoDB for user and message persistence.",
+      "A real-time messaging application that enables instant communication between users using WebSockets. It supports live chat, typing indicators, online/offline presence, message timestamps, and conversation history. The interface is fully responsive and optimized for smooth, fast, and uninterrupted communication.",
     link: "https://github.com/Abdul-Kalam0/Real-Time-Chat-Application",
-    // image: "/snapvault.png",
-    // demo: "https://snap-vault-backend-ajmal-razas-projects.vercel.app",
-    tech: ["Node.js", "Express", "MongoDB", "Socket.io", "Bcrypt", "JWT"],
+    tech: [
+      "React.js",
+      "JavaScript (ES6+)",
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "Axios",
+      "Bootstrap",
+      "REST API",
+      "WebSockets",
+      "Git & GitHub",
+      "Postman (API Testing)",
+    ],
   },
-  // {
-  //   title: "Spotify-backend",
-  //   description:
-  //     "Developed a Node.js & Express.js backend that integrates with the Spotify Web API to enable core music streaming functionalities. Implemented OAuth 2.0 authentication for secure user login via Spotify accounts and handled token refresh workflows. Designed RESTful API endpoints.",
-  //   link: "https://github.com/Abdul-Kalam0/Spotify",
-  //   // image: "/moviecrate.png",
-  //   // demo: "https://snapvault-demo.vercel.app",
-  //   tech: ["Node.js", "Express", "MongoDB", "Mongoose", "JWT", "Bcrypt"],
-  // },
+
   {
     title: "OAuth Login App",
     description:
-      "Secure authentication system with frontend & backend using token-based OAuth and protected routes.",
+      "A secure authentication system that allows users to sign in using trusted OAuth providers like Google or GitHub. The application streamlines onboarding, reduces password friction, and ensures modern authentication standards with token-based session handling.",
     link: "https://github.com/Abdul-Kalam0/OAuth-Backend",
-    // image: "/oauth.png",
-    //demo: "https://oauth-server-eac27.vercel.app/",
-    tech: ["Node.js", "Express", "PostgreSQL", "Supabase", "Sequelize"],
+
+    tech: [
+      "Node.js",
+      "Express",
+      "REST API",
+      "JWT Authentication",
+      "Axios",
+      "PostgreSQL",
+      "Supabase",
+      "Sequelize",
+      "Postman (API Testing)",
+      "Git & GitHub",
+    ],
   },
-  // {
-  //   title: "TheDocStore: Document Management System",
-  //   description:
-  //     "Document management system with folder restrictions, file metadata, and Cloudinary uploads. Built using Node.js, Sequelize, Supabase, and Multer.",
-  //   link: "https://github.com/ajmal92786/The-Doc-Store",
-  //   // image: "/docstore.png", ]
-  //   // demo: "https://snapvault-demo.vercel.app",
-  //   tech: ["Node.js", "Express", "PostgreSQL", "Supabase", "Sequelize"],
-  // },
 ];
 
 export default function Projects() {
@@ -57,7 +129,7 @@ export default function Projects() {
             className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg overflow-hidden shadow-xl hover:shadow-teal-500/25 transition-all duration-300 flex flex-col w-[300px] border border-gray-700 hover:border-teal-500"
           >
             <div className="p-6 flex-1 flex flex-col">
-              <h3 className="text-lg font-semibold text-gray-200 mb-3">
+              <h3 className="text-xl font-semibold text-gray-200 mb-3 underline decoration-teal-400 underline-offset-4">
                 {project.title}
               </h3>
               <p className="text-gray-400 text-sm mb-4">
@@ -97,14 +169,14 @@ export default function Projects() {
                       <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
                     </svg>
                   </a>
-                  {project.demo && (
+                  {project.live && (
                     <a
-                      href={project.demo}
+                      href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm inline-flex items-center hover:from-blue-600 hover:to-teal-600 transition-all shadow-lg hover:shadow-teal-500/25"
                     >
-                      Demo
+                      Live
                       <svg
                         className="w-4 h-4 ml-2"
                         fill="none"

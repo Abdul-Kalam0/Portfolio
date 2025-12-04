@@ -1,17 +1,21 @@
 import {
   FaNodeJs,
-  FaReact,
   FaGitAlt,
   FaGithub,
   FaLock,
   FaJs,
   FaPython,
+  FaReact,
+  FaTools,
 } from "react-icons/fa";
 import {
   SiExpress,
   SiPostgresql,
   SiMongodb,
   SiSequelize,
+  SiRedux,
+  SiBootstrap,
+  SiTailwindcss,
   SiSupabase,
   SiPostman,
   SiJest,
@@ -22,37 +26,79 @@ const tech = [
   {
     category: "Languages",
     items: [
-      { name: "JavaScript", icon: <FaJs className="text-xl" /> },
-      { name: "Python", icon: <FaPython className="text-xl" /> },
+      {
+        name: "JavaScript",
+        icon: <FaJs className="text-xl text-yellow-400" />,
+      },
+      { name: "Python", icon: <FaPython className="text-xl text-blue-600" /> },
 
       // { name: "React", icon: <FaReact className="text-xl" /> },
     ],
   },
   {
-    category: "Backend & APIs",
+    category: "Full Stack & APIs",
     items: [
-      { name: "Node.js", icon: <FaNodeJs className="text-xl" /> },
-      { name: "Express.js", icon: <SiExpress className="text-xl" /> },
-      { name: "REST API", icon: <SiPostman className="text-xl" /> },
-      { name: "JWT & OAuth", icon: <FaLock className="text-xl" /> },
+      { name: "React.js", icon: <FaReact className="text-xl text-blue-500" /> },
+      { name: "Redux", icon: <SiRedux className="text-xl text-purple-600" /> },
+      {
+        name: "Bootstrap",
+        icon: <SiBootstrap className="text-xl text-indigo-500" />,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss className="text-xl text-[#38BDF8]" />,
+      },
+
+      {
+        name: "Node.js",
+        icon: <FaNodeJs className="text-xl text-green-500" />,
+      },
+      {
+        name: "Express.js",
+        icon: <SiExpress className="text-xl text-gray-700" />,
+      },
+      {
+        name: "REST API",
+        icon: <SiPostman className="text-xl text-orange-500" />,
+      },
+      {
+        name: "JWT & OAuth",
+        icon: <FaLock className="text-xl text-gray-500" />,
+      },
     ],
   },
   {
     category: "Databases & ORMs",
     items: [
-      { name: "MongoDB", icon: <SiMongodb className="text-xl" /> },
-      { name: "PostgreSQL", icon: <SiPostgresql className="text-xl" /> },
-      { name: "Sequelize", icon: <SiSequelize className="text-xl" /> },
+      {
+        name: "MongoDB",
+        icon: <SiMongodb className="text-xl text-green-600" />,
+      },
+      {
+        name: "PostgreSQL",
+        icon: <SiPostgresql className="text-xl text-blue-700" />,
+      },
+      {
+        name: "Sequelize",
+        icon: <SiSequelize className="text-xl text-blue-500" />,
+      },
     ],
   },
   {
     category: "Developer Tools",
     items: [
-      { name: "VS Code", icon: <VscCode className="text-xl" /> },
-      { name: "Git", icon: <FaGitAlt className="text-xl" /> },
-      { name: "GitHub", icon: <FaGithub className="text-xl" /> },
-      { name: "Postman", icon: <SiPostman className="text-xl" /> },
-      { name: "Jest", icon: <SiJest className="text-xl" /> },
+      { name: "VS Code", icon: <VscCode className="text-xl text-blue-600" /> },
+      { name: "Git", icon: <FaGitAlt className="text-xl text-orange-600" /> },
+      { name: "GitHub", icon: <FaGithub className="text-xl text-gray-800" /> },
+      {
+        name: "Postman",
+        icon: <SiPostman className="text-xl text-orange-500" />,
+      },
+      { name: "Jest", icon: <SiJest className="text-xl text-red-500" /> },
+      {
+        name: "Chrome DevTools",
+        icon: <FaTools className="text-xl text-gray-600" />,
+      },
     ],
   },
   // {
