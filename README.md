@@ -8,8 +8,10 @@ A personal portfolio website built with **React** and **Tailwind CSS**, showcasi
 
 ## 📌 About Me
 
-Hi, I'm **Abdul Kalam** – a backend developer specializing in **Node.js**, **Express**, **PostgreSQL**, and **Supabase**.  
-I enjoy building scalable APIs, integrating external services, and writing clean, testable code.
+Hi, I'm **Abdul Kalam**, a Passionate **full-stack developer** crafting intuitive digital
+experiences with modern technologies. Specializing in **React**,
+**Node.js**, **Express**, **MongoDB**, **PostgreSQL** & **Supabase**. I build scalable APIs, integrate external services, and write clean,
+testable code.
 
 This portfolio is a reflection of my journey, tech stack, and projects I’ve built along the way.
 
