@@ -2,6 +2,55 @@ import { useState } from "react";
 
 const projects = [
   {
+    title: "InterviewMock-AI",
+    description:
+      "InterviewMock-AI is a full-stack AI-powered interview preparation platform that simulates real interview experiences using Generative AI. Users can start technical interviews, answer AI-generated questions, receive instant feedback summaries, and improve communication and problem-solving skills through an interactive and responsive interface.",
+    link: "https://github.com/Abdul-Kalam0/InterviewMock-AI",
+    tech: [
+      "React.js",
+      "React Router DOM",
+      "Tailwind CSS",
+      "JavaScript (ES6+)",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "Google Gemini API",
+      "REST API",
+      "Postman",
+      "Git & GitHub",
+    ],
+    link: "https://github.com/Abdul-Kalam0/InterviewMock-AI",
+    live: "https://interviewmock-001.vercel.app/",
+  },
+
+  {
+    title: "CloudImg",
+    description:
+      "CloudImg is a full-stack cloud-based image management platform that enables users to securely upload, organize, manage, and share images using a scalable MERN architecture. The platform includes JWT authentication, Google OAuth, album sharing, favorites, commenting functionality, Cloudinary-powered image storage, and a fully responsive SaaS-inspired interface.",
+    tech: [
+      "React.js",
+      "React Router DOM",
+      "Tailwind CSS",
+      "JavaScript (ES6+)",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "Google OAuth",
+      "Cloudinary",
+      "REST API",
+      "Postman",
+      "Git & GitHub",
+    ],
+    link: "https://github.com/Abdul-Kalam0/CloudImg",
+    live: "https://cloud-img-001.vercel.app/",
+  },
+  {
     title: "Anvaya CRM System",
     description:
       "Anvaya CRM is a full-stack lead management system designed to track sales pipelines, assign leads to agents, update progress, and analyze performance. It features a responsive UI, real-time filtering, CRUD operations, status tracking, reporting charts, and a dashboard summarizing lead insights — making sales management faster, organized, and efficient.",
@@ -23,26 +72,7 @@ const projects = [
     ],
     live: "https://anvaya-crm-001.vercel.app/",
   },
-  {
-    title: "AI ChatBot",
-    description:
-      "AI ChatBot powered by Google Gemini API is an intelligent conversational assistant capable of generating human-like responses, answering queries, and understanding natural language context. It integrates Google’s Gemini LLM to provide real-time smart replies, content generation, and user-friendly interactions with a clean, responsive UI.",
-    tech: [
-      "React.js",
-      "JavaScript (ES6+)",
-      "Bootstrap",
-      "Node.js",
-      "Express.js",
-      "Google Gemini API",
-      "REST API",
-      "Axios / Fetch",
-      "dotenv",
-      "Git & GitHub",
-      "Postman (API Testing)",
-    ],
-    link: "https://github.com/Abdul-Kalam0/AI-ChatBot",
-    live: "https://ai-chatbot001.vercel.app/",
-  },
+
   {
     title: "MyShopieApp",
     description:
@@ -85,6 +115,24 @@ const projects = [
       "Bootstrap",
       "REST API",
       "WebSockets",
+      "Git & GitHub",
+      "Postman (API Testing)",
+    ],
+  },
+  {
+    title: "AI ChatBot",
+    description:
+      "AI ChatBot powered by Google Gemini API is an intelligent conversational assistant capable of generating human-like responses, answering queries, and understanding natural language context. It integrates Google’s Gemini LLM to provide real-time smart replies, content generation, and user-friendly interactions with a clean, responsive UI.",
+    tech: [
+      "React.js",
+      "JavaScript (ES6+)",
+      "Bootstrap",
+      "Node.js",
+      "Express.js",
+      "Google Gemini API",
+      "REST API",
+      "Axios / Fetch",
+      "dotenv",
       "Git & GitHub",
       "Postman (API Testing)",
     ],
