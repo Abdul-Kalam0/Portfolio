@@ -119,24 +119,7 @@ const projects = [
       "Postman (API Testing)",
     ],
   },
-  {
-    title: "AI ChatBot",
-    description:
-      "AI ChatBot powered by Google Gemini API is an intelligent conversational assistant capable of generating human-like responses, answering queries, and understanding natural language context. It integrates Google’s Gemini LLM to provide real-time smart replies, content generation, and user-friendly interactions with a clean, responsive UI.",
-    tech: [
-      "React.js",
-      "JavaScript (ES6+)",
-      "Bootstrap",
-      "Node.js",
-      "Express.js",
-      "Google Gemini API",
-      "REST API",
-      "Axios / Fetch",
-      "dotenv",
-      "Git & GitHub",
-      "Postman (API Testing)",
-    ],
-  },
+ 
 
   {
     title: "OAuth Login App",
