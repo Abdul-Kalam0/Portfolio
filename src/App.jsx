@@ -34,11 +34,11 @@ function App() {
                   Full Stack Developer
                 </h2>
                 <p className="text-lg md:text-xl text-gray-300 leading-relaxed max-w-3xl animate-fade-in-up delay-300">
-                  Passionate full-stack developer crafting intuitive digital
-                  experiences with modern technologies. Specializing in React,
-                  Node.js, Express, MongoDB, PostgreSQL & Supabase. I build
-                  scalable APIs, integrate external services, and write clean,
-                  testable code.
+                  Full-Stack Developer specializing in React, Node.js,
+                  Express.js, MongoDB, PostgreSQL, and Supabase. Passionate
+                  about building scalable web applications, secure APIs, and
+                  high-performance user experiences with clean, maintainable
+                  code.
                 </p>
               </div>
 

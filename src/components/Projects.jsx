@@ -119,7 +119,6 @@ const projects = [
       "Postman (API Testing)",
     ],
   },
- 
 
   {
     title: "OAuth Login App",
@@ -173,14 +172,9 @@ export default function Projects() {
                     Technologies:
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    {project.tech.map((tech) => (
-                      <span
-                        key={tech}
-                        className="text-teal-400 text-xs font-medium"
-                      >
-                        {tech}
-                      </span>
-                    ))}
+                    <span className="text-teal-400 text-xs font-medium">
+                      {project.tech.join(", ")}
+                    </span>
                   </div>
                 </div>
 
