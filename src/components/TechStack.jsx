@@ -25,6 +25,7 @@ import {
   SiWebpack,
   SiOpenai,
   SiTypescript,
+  SiDocker,
 } from "react-icons/si";
 
 import { VscCode } from "react-icons/vsc";
@@ -184,8 +185,12 @@ const tech = [
         icon: <SiJest className="text-xl text-red-500" />,
       },
       {
-        name: "Chrome DevTools",
-        icon: <FaTools className="text-xl text-gray-400" />,
+        name: "Webpack",
+        icon: <SiWebpack className="text-xl text-blue-400" />,
+      },
+      {
+        name: "Docker",
+        icon: <SiDocker className="text-xl text-blue-400" />,
       },
     ],
   },
